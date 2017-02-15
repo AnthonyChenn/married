@@ -1,7 +1,7 @@
 <?php
 function db_open(){
     try {
-        $dbh = new PDO('mysql:host=127.0.0.1;dbname=married', 'root', 'Kid95400');
+        $dbh = new PDO('mysql:host=127.0.0.1;dbname=married', 'root', 'kid95400');
         $dbh->exec('SET NAMES UTF8');
         return $dbh;
     } catch (PDOException $e) {
